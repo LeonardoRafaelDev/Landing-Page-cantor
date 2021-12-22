@@ -6,9 +6,5 @@
 ---------
 #### para usar basta startar o arquivo index.html.
 ## projeto iniciado e feito em apenas 7 horas por urgencia do cliente
-░░┌──┐░░░░░░░░░░┌──┐░░
-░╔╡▐▐╞╝░░┌──┐░░╔╡▐▐╞╝░
-░░└╥╥┘░░╚╡▌▌╞╗░░└╥╥┘░░
-░░░╚╚░░░░└╥╥┘░░░░╚╚░░░
-░░░░░░░░░░╝╝░░░░░░░░░░
+
 Code by Leonardo https://github.com/LeonardoRafaelDev
