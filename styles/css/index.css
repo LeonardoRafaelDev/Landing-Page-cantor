@@ -1,3 +1,10 @@
+/* cor do background  linear-gradient(180deg, #E7581A 0%, #F8A54A 100%)
+cor das letras #E8E8E8;
+cor botao #53B9AE
+font usada montserrat 500 e 600 
+500 para detalhes
+e 600 para principais */
+
 *{
       margin: 0;
       padding: 0;
@@ -15,6 +22,9 @@ body{
       -moz-border-radius: 3rem;
       -ms-border-radius: 3rem;
       -o-border-radius: 3rem;
+}
+.mg-divsb{
+      margin-bottom: 8rem;
 }
 .mg-divs{
       margin-top: 1rem;
@@ -145,20 +155,14 @@ body{
       }
       .body-quem-e-tittle{
             font-family: 'Montserrat', sans-serif;
-            font-weight: 600 ;
-            min-width: 300px;
-            color: #E8E8E8;
-            text-align: center;
             font-size: 1.9rem;
-            margin-top: 1rem;
-            padding: 0;
-            text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
       }
       .image-show{
-            max-width: 350px;}
-            .body-desc-baixar{
-                  font-size: 1.8rem;
-            }
+            max-width: 350px;
+      }
+      .body-desc-baixar{
+            font-size: 1.8rem;
+      }
 }
 @media (min-width: 992px){
       .body-title{
@@ -177,14 +181,9 @@ body{
             max-width: 450px;
       }
       .body-Desc-estreou{
-            font-family: 'Montserrat', sans-serif;
-            font-weight: 600 ;
-            line-height: 1.8rem;
-            color: #E8E8E8;
             text-align: left;
             font-size: 2rem;
-            text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-      }
+            }
       .image-show{
             max-width: 450px;}
             .body-desc-baixar{
