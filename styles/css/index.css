@@ -1,0 +1,198 @@
+*{
+      margin: 0;
+      padding: 0;
+}
+html, body{
+      max-width: 100%;
+      overflow-x: hidden;
+}
+body{
+      background: linear-gradient(180deg, #E7581A 0%, #F8A54A 100%);
+}
+.video{
+      border-radius: 3rem;
+      -webkit-border-radius: 3rem;
+      -moz-border-radius: 3rem;
+      -ms-border-radius: 3rem;
+      -o-border-radius: 3rem;
+}
+.mg-divs{
+      margin-top: 1rem;
+}
+.mg-divs2{
+      margin-top: 2rem;
+}
+.logo-braga{
+      filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+      max-width: 350px;
+}
+.body-title{
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 600 ;
+      min-width: 300px;
+      color: #E8E8E8;
+      text-align: center;
+      font-size: 1.7rem;
+      margin-top: 1rem;
+      padding: 0;
+      text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.body-Desc{
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 500 ;
+      line-height: 1.8rem;
+      color: #E8E8E8;
+      text-align: center;
+      font-size: 1.5rem;
+      padding: 0;
+      text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.btn{
+      background-color: #53B9AE;
+      border-radius: 4rem;
+      max-width: 300px;
+      -webkit-border-radius: 4rem;
+      -moz-border-radius: 4rem;
+      -ms-border-radius: 4rem;
+      -o-border-radius: 4rem;
+}
+.button-text{
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 600 ;
+      color: #E8E8E8;
+      text-align: center;
+      font-size: 1.5rem;
+      margin: 0;
+      padding: 0;
+      text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.body-quem-e-tittle{
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 600 ;
+      min-width: 300px;
+      color: #E8E8E8;
+      text-align: center;
+      font-size: 1.7rem;
+      margin-top: 1rem;
+      padding: 0;
+      text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.body-Desc-quem-e-braga{
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 600 ;
+      line-height: 1.8rem;
+      color: #E8E8E8;
+      text-align: center;
+      font-size: 1.5rem;
+      text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.image-Braga{
+      max-width: 300px;
+      filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.body-Desc-estreou{
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 600 ;
+      line-height: 1.8rem;
+      color: #E8E8E8;
+      text-align: center;
+      font-size: 1.5rem;
+      text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.body-desc-pisadinha{
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 600 ;
+      line-height: 1.8rem;
+      color: #E8E8E8;
+      text-align: center;
+      font-size: 1.5rem;
+      text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.image-show{
+      max-width: 300px;
+      filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.body-desc-baixar{
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 600 ;
+      line-height: 1.8rem;
+      color: #E8E8E8;
+      text-align: center;
+      font-size: 1.5rem;
+      text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.footer-tittle{
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 600 ;
+      line-height: 1.8rem;
+      color: #E8E8E8;
+      text-align: center;
+      font-size: 1.5rem;
+      text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+@media (min-width: 768px){
+      .mg-divs{
+            margin-top: 2rem;
+      }
+      .mg-divs2{
+            margin-top: 4rem;
+      }
+      .body-Desc-quem-e-braga{
+            max-width: 400px;
+            text-align: left;
+            font-size: 1.8rem;
+            margin-left: -2rem;
+      }
+      .body-quem-e-tittle{
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 600 ;
+            min-width: 300px;
+            color: #E8E8E8;
+            text-align: center;
+            font-size: 1.9rem;
+            margin-top: 1rem;
+            padding: 0;
+            text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      }
+      .image-show{
+            max-width: 350px;}
+            .body-desc-baixar{
+                  font-size: 1.8rem;
+            }
+}
+@media (min-width: 992px){
+      .body-title{
+      font-size: 1.9rem;
+      text-align: left;
+      }
+      .body-Desc{
+      font-size: 1.7rem;
+      text-align: left;
+      }
+      .video{
+            max-width: 650px;
+      }
+      .body-Desc-quem-e-braga{
+            font-size: 2rem;
+            max-width: 450px;
+      }
+      .body-Desc-estreou{
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 600 ;
+            line-height: 1.8rem;
+            color: #E8E8E8;
+            text-align: left;
+            font-size: 2rem;
+            text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      }
+      .image-show{
+            max-width: 450px;}
+            .body-desc-baixar{
+                  font-size: 2rem;
+            }
+}
+
+
+
+
+
