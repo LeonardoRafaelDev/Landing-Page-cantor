@@ -13,7 +13,7 @@
 # clone do repositorio
      $ git clone https://github.com/LeonardoRafaelDev/Landing-Page-cantor
 # acesse a pasta do projeto
-     $ cd Douglas-Braga
+     $ cd Landing-Page-cantor
 # e basta executar o arquivo .html
       $ firefox index.html
 ```
