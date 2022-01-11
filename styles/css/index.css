@@ -4,7 +4,7 @@ cor botao #53B9AE
 font usada montserrat 500 e 600 
 500 para detalhes
 e 600 para principais */
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&display=swap');
 *{
       margin: 0;
       padding: 0;
@@ -16,6 +16,9 @@ html, body{
 body{
       background: linear-gradient(180deg, #E7581A 0%, #F8A54A 100%);
 }
+.section-header{
+      margin-top: 3rem;
+}
 .video{
       border-radius: 3rem;
       -webkit-border-radius: 3rem;
@@ -23,23 +26,9 @@ body{
       -ms-border-radius: 3rem;
       -o-border-radius: 3rem;
 }
-.mg-divsb{
-      margin-bottom: 8rem;
-}
-.mg-divs{
-      margin-top: 1rem;
-}
-.mg-divs2{
-      margin-top: 2rem;
-}
-.logo-braga{
-      filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-      max-width: 350px;
-}
-.body-title{
+.header-title, .quem-e-tittle,.footer-baixar{
       font-family: 'Montserrat', sans-serif;
       font-weight: 600 ;
-      min-width: 300px;
       color: #E8E8E8;
       text-align: center;
       font-size: 1.7rem;
@@ -47,7 +36,7 @@ body{
       padding: 0;
       text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
-.body-Desc{
+.header-Desc, .quem-e-desc, .homenagem-text, .desc-pisadinha{
       font-family: 'Montserrat', sans-serif;
       font-weight: 500 ;
       line-height: 1.8rem;
@@ -76,119 +65,119 @@ body{
       padding: 0;
       text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
-.body-quem-e-tittle{
-      font-family: 'Montserrat', sans-serif;
-      font-weight: 600 ;
-      min-width: 300px;
-      color: #E8E8E8;
-      text-align: center;
-      font-size: 1.7rem;
-      margin-top: 1rem;
-      padding: 0;
-      text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+/*quem e*/
+.section-quem-e{
+      margin-top: 3.5rem;
 }
-.body-Desc-quem-e-braga{
-      font-family: 'Montserrat', sans-serif;
-      font-weight: 600 ;
-      line-height: 1.8rem;
-      color: #E8E8E8;
-      text-align: center;
-      font-size: 1.5rem;
-      text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-.image-Braga{
+.imagem-braga{
       max-width: 300px;
       filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
-.body-Desc-estreou{
-      font-family: 'Montserrat', sans-serif;
-      font-weight: 600 ;
-      line-height: 1.8rem;
-      color: #E8E8E8;
-      text-align: center;
-      font-size: 1.5rem;
-      text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+/*homenagem*/
+.section-homenagem{
+      margin-top: 3rem;
 }
-.body-desc-pisadinha{
-      font-family: 'Montserrat', sans-serif;
-      font-weight: 600 ;
-      line-height: 1.8rem;
-      color: #E8E8E8;
-      text-align: center;
-      font-size: 1.5rem;
-      text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+/*piseiro*/
+.section-piseiro{
+      margin-top: 3rem;
 }
-.image-show{
+.banner{
+      max-width: 800px;
+      border-radius: 3rem;
+}
+.image-show-apresentacao{
       max-width: 300px;
       filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
-.body-desc-baixar{
-      font-family: 'Montserrat', sans-serif;
-      font-weight: 600 ;
-      line-height: 1.8rem;
-      color: #E8E8E8;
-      text-align: center;
-      font-size: 1.5rem;
-      text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-.footer-tittle{
-      font-family: 'Montserrat', sans-serif;
-      font-weight: 600 ;
-      line-height: 1.8rem;
-      color: #E8E8E8;
-      text-align: center;
-      font-size: 1.5rem;
-      text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+/*footer*/
+.footer{
+      margin-bottom: 4rem;
+      margin-top: 3rem;
 }
 @media (min-width: 768px){
-      .mg-divs{
-            margin-top: 2rem;
+      .section-header{
+            margin-top: 5rem;
       }
-      .mg-divs2{
-            margin-top: 4rem;
+      .section-quem-e{
+            margin-top: 3.8rem;
       }
-      .body-Desc-quem-e-braga{
+      /*quem e*/
+      .quem-e-tittle{
+            font-size: 1.9rem;
+      }
+      .quem-e-desc{
             max-width: 400px;
             text-align: left;
             font-size: 1.8rem;
             margin-left: -2rem;
       }
-      .body-quem-e-tittle{
-            font-family: 'Montserrat', sans-serif;
-            font-size: 1.9rem;
+      /*homenagem*/
+      .section-homenagem{
+            margin-top: 3.8rem;
       }
-      .image-show{
+      /*piseiro*/
+      .section-piseiro{
+            margin-top: 3.8rem;
+      }
+      .image-show-apresentacao{
             max-width: 350px;
       }
-      .body-desc-baixar{
+      /*footer*/
+      .footer{
+      margin-bottom: 3.8rem;
+      margin-top: 3.8rem;
+      }
+      .footer-baixar{
             font-size: 1.8rem;
       }
+
 }
 @media (min-width: 992px){
-      .body-title{
+      .section-header{
+            margin-top: 7rem;
+      }
+      .header-title{
       font-size: 1.9rem;
       text-align: left;
       }
-      .body-Desc{
+      .header-Desc{
       font-size: 1.7rem;
       text-align: left;
       }
       .video{
             max-width: 650px;
       }
-      .body-Desc-quem-e-braga{
-            font-size: 2rem;
-            max-width: 450px;
+      /*quem e */
+      .section-quem-e{
+            margin-top: 5rem;
       }
-      .body-Desc-estreou{
+      .quem-e-desc{
+            font-size: 2rem;
+            max-width: 500px;
+      }
+      /*homenagem*/
+      .section-homenagem{
+            margin-top: 5rem;
+      }
+      .homenagem-text{
             text-align: left;
             font-size: 2rem;
             }
-      .image-show{
-            max-width: 450px;}
-            .body-desc-baixar{
-                  font-size: 2rem;
-            }
+      /*piseiro*/
+      .section-piseiro{
+            margin-top: 5rem;
+      }
+      .image-show-apresentacao{
+            max-width: 450px;
+      }
+      /*footer*/
+      .footer{
+      margin-top: 5rem;
+      margin-bottom: 5rem;
+      }
+      .footer-baixar{
+            font-size: 2rem;
+      }
 }
 
 
