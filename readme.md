@@ -11,7 +11,7 @@
 
 ```bash
 # clone do repositorio
-     $ git clone https://github.com/LeonardoRafaelDev/Douglas-Braga
+     $ git clone https://github.com/LeonardoRafaelDev/Landing-Page-cantor
 # acesse a pasta do projeto
      $ cd Douglas-Braga
 # e basta executar o arquivo .html
